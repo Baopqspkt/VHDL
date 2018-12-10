@@ -1,0 +1,5 @@
+set -tmpdir "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/xst/projnav.tmp"
+set -xsthdpdir "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/xst"
+elaborate
+-ifn LCD_GAN_DULIEU_HIENTHI.prj
+-ifmt mixed

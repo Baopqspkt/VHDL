@@ -1,0 +1,81 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" in Library work.
+Entity <lcd_gan_dulieu_hienthi> compiled.
+ERROR:HDLParsers:804 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 37. Size of aggregate is different than size of the target.
+ERROR:HDLParsers:164 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 100. parse error, unexpected CLOSEPAR
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 104. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 104. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 107. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 107. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 110. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 110. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 113. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 113. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 116. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 116. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 119. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 119. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 122. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 122. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 125. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 125. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 128. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 128. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 131. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 131. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 134. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 134. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 137. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 137. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 140. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 140. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 143. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 143. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 146. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 146. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 149. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 149. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 152. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 152. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 155. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 155. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 158. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 158. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:3320 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 161. Cannot resolve the type for the waveform.
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 161. Type of LCD_HANG_1 is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:804 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 167. Size of aggregate is different than size of the target.
+ERROR:HDLParsers:164 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 193. parse error, unexpected PROCESS, expecting OPENPAR or TICK or LSQBRACK
+ERROR:HDLParsers:164 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 200. parse error, unexpected PROCESS
+ERROR:HDLParsers:800 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 226. Type of HOVATEN_PST is incompatible with type of HOVATEN_PST.
+ERROR:HDLParsers:164 - "H:/BAI_1_MR_DEM_LEN_DICH_TSP_DEM_XUONG_DICH_PST/LCD_GAN_DULIEU_HIENTHI.vhd" Line 228. parse error, unexpected ELSE, expecting END
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
+ 
+--> 
+
+Total memory usage is 4513600 kilobytes
+
+Number of errors   :   47 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

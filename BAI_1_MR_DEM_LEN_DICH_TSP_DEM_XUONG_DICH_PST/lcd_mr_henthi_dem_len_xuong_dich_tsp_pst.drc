@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Dec 09 10:47:28 2018
+
+drc -z LCD_MR_HENTHI_DEM_LEN_XUONG_DICH_TSP_PST.ncd LCD_MR_HENTHI_DEM_LEN_XUONG_DICH_TSP_PST.pcf
+
+DRC detected 0 errors and 0 warnings.
