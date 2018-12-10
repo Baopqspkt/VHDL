@@ -1,0 +1,40 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity DEM_2SO is
+	Port ( CKHT, RST, ENA_DB : in  STD_LOGIC;
+			 OE: OUT STD_LOGIC);
+end DEM_2SO;
+
+architecture Behavioral of DEM_2SO is
+SIGNAL DONVI_REG, DONVI_NEXT: STD_LOGIC_VECTOR (3 DOWNTO 0);
+
+begin
+
+	PROCESS (CKHT, RST)
+	BEGIN
+		IF RST ='1' OR DONVI_REG="0110" THEN DONVI_REG <= "0000";
+		ELSIF FALLING_EDGE (CKHT) THEN DONVI_REG <= DONVI_NEXT;
+
+		END IF;
+	END PROCESS;
+--------------------------------------------------------------------
+	PROCESS (DONVI_REG, ENA_DB)
+	BEGIN
+		DONVI_NEXT <= DONVI_REG;
+		IF ENA_DB ='1' THEN 
+				IF DONVI_REG /= X"9" THEN DONVI_NEXT <= DONVI_REG +1;
+				ELSE								
+					DONVI_NEXT <= X"0";
+				END IF;
+		END IF;
+	END PROCESS;
+	OE <= '1' WHEN DONVI_REG="0101" ELSE '0';
+			
+	
+end Behavioral;
+

@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+xst -intstyle ise -ifn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+xst -intstyle ise -ifn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+xst -intstyle ise -ifn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+xst -intstyle ise -ifn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc eda_xc3s500e_pq208.ucf -p xc3s500e-pq208-5 "DICH_1_HANG_HIENTHI.ngc" DICH_1_HANG_HIENTHI.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ngd DICH_1_HANG_HIENTHI.pcf 
+par -w -intstyle ise -ol high -t 1 DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ncd DICH_1_HANG_HIENTHI.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DICH_1_HANG_HIENTHI.twx DICH_1_HANG_HIENTHI.ncd -o DICH_1_HANG_HIENTHI.twr DICH_1_HANG_HIENTHI.pcf -ucf eda_xc3s500e_pq208.ucf 
+bitgen -intstyle ise -f DICH_1_HANG_HIENTHI.ut DICH_1_HANG_HIENTHI.ncd 
+xst -intstyle ise -ifn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+xst -intstyle ise -ifn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/MON HOC/HKI_2018-2019/TT_VHDL/CHUONG_6/BAI_MR/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc eda_xc3s500e_pq208.ucf -p xc3s500e-pq208-5 "DICH_1_HANG_HIENTHI.ngc" DICH_1_HANG_HIENTHI.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ngd DICH_1_HANG_HIENTHI.pcf 
+par -w -intstyle ise -ol high -t 1 DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ncd DICH_1_HANG_HIENTHI.pcf 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc eda_xc3s500e_pq208.ucf -p xc3s500e-pq208-5 "DICH_1_HANG_HIENTHI.ngc" DICH_1_HANG_HIENTHI.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ngd DICH_1_HANG_HIENTHI.pcf 
+par -w -intstyle ise -ol high -t 1 DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ncd DICH_1_HANG_HIENTHI.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DICH_1_HANG_HIENTHI.twx DICH_1_HANG_HIENTHI.ncd -o DICH_1_HANG_HIENTHI.twr DICH_1_HANG_HIENTHI.pcf -ucf eda_xc3s500e_pq208.ucf 
+bitgen -intstyle ise -f DICH_1_HANG_HIENTHI.ut DICH_1_HANG_HIENTHI.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc eda_xc3s500e_pq208.ucf -p xc3s500e-pq208-5 "DICH_1_HANG_HIENTHI.ngc" DICH_1_HANG_HIENTHI.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ngd DICH_1_HANG_HIENTHI.pcf 
+par -w -intstyle ise -ol high -t 1 DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ncd DICH_1_HANG_HIENTHI.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DICH_1_HANG_HIENTHI.twx DICH_1_HANG_HIENTHI.ncd -o DICH_1_HANG_HIENTHI.twr DICH_1_HANG_HIENTHI.pcf -ucf eda_xc3s500e_pq208.ucf 
+bitgen -intstyle ise -f DICH_1_HANG_HIENTHI.ut DICH_1_HANG_HIENTHI.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc eda_xc3s500e_pq208.ucf -p xc3s500e-pq208-5 "DICH_1_HANG_HIENTHI.ngc" DICH_1_HANG_HIENTHI.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ngd DICH_1_HANG_HIENTHI.pcf 
+par -w -intstyle ise -ol high -t 1 DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ncd DICH_1_HANG_HIENTHI.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DICH_1_HANG_HIENTHI.twx DICH_1_HANG_HIENTHI.ncd -o DICH_1_HANG_HIENTHI.twr DICH_1_HANG_HIENTHI.pcf -ucf eda_xc3s500e_pq208.ucf 
+bitgen -intstyle ise -f DICH_1_HANG_HIENTHI.ut DICH_1_HANG_HIENTHI.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc eda_xc3s500e_pq208.ucf -p xc3s500e-pq208-5 "DICH_1_HANG_HIENTHI.ngc" DICH_1_HANG_HIENTHI.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ngd DICH_1_HANG_HIENTHI.pcf 
+par -w -intstyle ise -ol high -t 1 DICH_1_HANG_HIENTHI_map.ncd DICH_1_HANG_HIENTHI.ncd DICH_1_HANG_HIENTHI.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DICH_1_HANG_HIENTHI.twx DICH_1_HANG_HIENTHI.ncd -o DICH_1_HANG_HIENTHI.twr DICH_1_HANG_HIENTHI.pcf -ucf eda_xc3s500e_pq208.ucf 
+bitgen -intstyle ise -f DICH_1_HANG_HIENTHI.ut DICH_1_HANG_HIENTHI.ncd 

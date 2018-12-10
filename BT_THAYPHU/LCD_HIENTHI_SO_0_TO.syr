@@ -1,0 +1,581 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: LCD_HIENTHI_SO_0_TO.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LCD_HIENTHI_SO_0_TO.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LCD_HIENTHI_SO_0_TO"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : LCD_HIENTHI_SO_0_TO
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/DEM_1SO.vhd" in Library work.
+Architecture behavioral of Entity dem_1so is up to date.
+Compiling vhdl file "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_GIAI_MA_SO_TO.vhd" in Library work.
+Architecture behavioral of Entity lcd_giai_ma_so_to is up to date.
+Compiling vhdl file "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_GAN_DULIEU_1SO_TO.vhd" in Library work.
+Entity <lcd_gan_dulieu_1so_to> compiled.
+Entity <lcd_gan_dulieu_1so_to> (Architecture <behavioral>) compiled.
+Compiling vhdl file "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_KHOITAO_HIENTHI_GRAM_SO_TO.vhd" in Library work.
+Architecture behavioral of Entity lcd_khoitao_hienthi_cgram_so_to is up to date.
+Compiling vhdl file "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.vhd" in Library work.
+Architecture behavioral of Entity lcd_hienthi_so_0_to is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LCD_HIENTHI_SO_0_TO> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_1SO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_GIAI_MA_SO_TO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_GAN_DULIEU_1SO_TO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_KHOITAO_HIENTHI_CGRAM_SO_TO> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LCD_HIENTHI_SO_0_TO> in library <work> (Architecture <behavioral>).
+Entity <LCD_HIENTHI_SO_0_TO> analyzed. Unit <LCD_HIENTHI_SO_0_TO> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <DEM_1SO> in library <work> (Architecture <Behavioral>).
+Entity <DEM_1SO> analyzed. Unit <DEM_1SO> generated.
+
+Analyzing Entity <LCD_GIAI_MA_SO_TO> in library <work> (Architecture <Behavioral>).
+Entity <LCD_GIAI_MA_SO_TO> analyzed. Unit <LCD_GIAI_MA_SO_TO> generated.
+
+Analyzing Entity <LCD_GAN_DULIEU_1SO_TO> in library <work> (Architecture <Behavioral>).
+Entity <LCD_GAN_DULIEU_1SO_TO> analyzed. Unit <LCD_GAN_DULIEU_1SO_TO> generated.
+
+Analyzing Entity <LCD_KHOITAO_HIENTHI_CGRAM_SO_TO> in library <work> (Architecture <Behavioral>).
+INFO:Xst:1433 - Contents of array <LCD_DIS1> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD_DIS2> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Entity <LCD_KHOITAO_HIENTHI_CGRAM_SO_TO> analyzed. Unit <LCD_KHOITAO_HIENTHI_CGRAM_SO_TO> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/CHIA_10ENA.vhd".
+    Found 19-bit adder for signal <D100HZ_NEXT$addsub0000> created at line 54.
+    Found 19-bit register for signal <D100HZ_REG>.
+    Found 23-bit adder for signal <D10HZ_NEXT$addsub0000> created at line 62.
+    Found 23-bit register for signal <D10HZ_REG>.
+    Found 26-bit adder for signal <D1HZ_NEXT$addsub0000> created at line 68.
+    Found 26-bit register for signal <D1HZ_REG>.
+    Found 16-bit adder for signal <D1KHZ_NEXT$addsub0000> created at line 52.
+    Found 16-bit register for signal <D1KHZ_REG>.
+    Found 3-bit adder for signal <D1MHZ_NEXT$addsub0000> created at line 50.
+    Found 3-bit register for signal <D1MHZ_REG>.
+    Found 22-bit adder for signal <D20HZ_NEXT$addsub0000> created at line 60.
+    Found 22-bit register for signal <D20HZ_REG>.
+    Found 21-bit adder for signal <D25HZ_NEXT$addsub0000> created at line 58.
+    Found 21-bit register for signal <D25HZ_REG>.
+    Found 25-bit adder for signal <D2HZ_NEXT$addsub0000> created at line 66.
+    Found 25-bit register for signal <D2HZ_REG>.
+    Found 20-bit adder for signal <D50HZ_NEXT$addsub0000> created at line 56.
+    Found 20-bit register for signal <D50HZ_REG>.
+    Found 24-bit adder for signal <D5HZ_NEXT$addsub0000> created at line 64.
+    Found 24-bit register for signal <D5HZ_REG>.
+    Summary:
+	inferred 199 D-type flip-flop(s).
+	inferred  10 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <DEM_1SO>.
+    Related source file is "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/DEM_1SO.vhd".
+    Found 4-bit up counter for signal <DONVI_REG>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_1SO> synthesized.
+
+
+Synthesizing Unit <LCD_GIAI_MA_SO_TO>.
+    Related source file is "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_GIAI_MA_SO_TO.vhd".
+    Found 60x8-bit ROM for signal <MA_SO<0>>.
+    Found 59x8-bit ROM for signal <MA_SO<1>>.
+    Found 58x8-bit ROM for signal <MA_SO<2>>.
+    Found 57x8-bit ROM for signal <MA_SO<3>>.
+    Found 56x8-bit ROM for signal <MA_SO<4>>.
+    Found 55x8-bit ROM for signal <MA_SO<5>>.
+    Found 4x3-bit multiplier for signal <MA_SO_0$mult0000> created at line 38.
+    Summary:
+	inferred   6 ROM(s).
+	inferred   1 Multiplier(s).
+Unit <LCD_GIAI_MA_SO_TO> synthesized.
+
+
+Synthesizing Unit <LCD_GAN_DULIEU_1SO_TO>.
+    Related source file is "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_GAN_DULIEU_1SO_TO.vhd".
+Unit <LCD_GAN_DULIEU_1SO_TO> synthesized.
+
+
+Synthesizing Unit <LCD_KHOITAO_HIENTHI_CGRAM_SO_TO>.
+    Related source file is "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_KHOITAO_HIENTHI_GRAM_SO_TO.vhd".
+    Found 64x8-bit ROM for signal <LCD_DB$rom0000> created at line 109.
+    Found finite state machine <FSM_0> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 20                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 8                                              |
+    | Clock              | LCD_CK                    (falling_edge)       |
+    | Reset              | LCD_RST                   (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_init                                       |
+    | Power Up State     | lcd_init                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6x8-bit ROM for signal <LCD_DB$mux0000> created at line 88.
+    Found 1-bit register for signal <LCD_E>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found 8-bit 16-to-1 multiplexer for signal <$varindex0000> created at line 130.
+    Found 8-bit 16-to-1 multiplexer for signal <$varindex0001> created at line 151.
+    Found 6-bit register for signal <CGRAM_PTR>.
+    Found 6-bit adder for signal <CGRAM_PTR$share0000> created at line 78.
+    Found 20-bit register for signal <SLX>.
+    Found 20-bit adder for signal <SLX$share0000> created at line 78.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 ROM(s).
+	inferred  36 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  16 Multiplexer(s).
+Unit <LCD_KHOITAO_HIENTHI_CGRAM_SO_TO> synthesized.
+
+
+Synthesizing Unit <LCD_HIENTHI_SO_0_TO>.
+    Related source file is "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.vhd".
+Unit <LCD_HIENTHI_SO_0_TO> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 8
+ 55x8-bit ROM                                          : 1
+ 56x8-bit ROM                                          : 1
+ 57x8-bit ROM                                          : 1
+ 58x8-bit ROM                                          : 1
+ 59x8-bit ROM                                          : 1
+ 60x8-bit ROM                                          : 1
+ 64x8-bit ROM                                          : 1
+ 6x8-bit ROM                                           : 1
+# Multipliers                                          : 1
+ 4x3-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 12
+ 16-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 2
+ 21-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 15
+ 1-bit register                                        : 2
+ 16-bit register                                       : 1
+ 19-bit register                                       : 1
+ 20-bit register                                       : 2
+ 21-bit register                                       : 1
+ 22-bit register                                       : 1
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 25-bit register                                       : 1
+ 26-bit register                                       : 1
+ 3-bit register                                        : 1
+ 6-bit register                                        : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 2
+ 8-bit 16-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_STATE/FSM> on signal <LCD_STATE[1:3]> with user encoding.
+----------------------------
+ State          | Encoding
+----------------------------
+ lcd_init       | 000
+ lcd_cgram_addr | 001
+ lcd_cgram_data | 010
+ lcd_addr_l1    | 011
+ lcd_data_l1    | 100
+ lcd_addr_l2    | 101
+ lcd_data_l2    | 110
+ lcd_stop       | 111
+----------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 8
+ 55x8-bit ROM                                          : 1
+ 56x8-bit ROM                                          : 1
+ 57x8-bit ROM                                          : 1
+ 58x8-bit ROM                                          : 1
+ 59x8-bit ROM                                          : 1
+ 60x8-bit ROM                                          : 1
+ 64x8-bit ROM                                          : 1
+ 6x8-bit ROM                                           : 1
+# Multipliers                                          : 1
+ 4x3-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 3
+ 20-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 62
+ Flip-Flops                                            : 62
+# Multiplexers                                         : 2
+ 8-bit 16-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LCD_HIENTHI_SO_0_TO> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <LCD_KHOITAO_HIENTHI_CGRAM_SO_TO> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LCD_HIENTHI_SO_0_TO, actual ratio is 4.
+FlipFlop DEM_1SO/DONVI_REG_0 has been replicated 2 time(s)
+FlipFlop DEM_1SO/DONVI_REG_1 has been replicated 2 time(s)
+FlipFlop DEM_1SO/DONVI_REG_2 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 75
+ Flip-Flops                                            : 75
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LCD_HIENTHI_SO_0_TO.ngr
+Top Level Output File Name         : LCD_HIENTHI_SO_0_TO
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 525
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 46
+#      LUT2                        : 41
+#      LUT2_D                      : 2
+#      LUT3                        : 85
+#      LUT3_D                      : 8
+#      LUT3_L                      : 6
+#      LUT4                        : 127
+#      LUT4_D                      : 8
+#      LUT4_L                      : 26
+#      MUXCY                       : 44
+#      MUXF5                       : 57
+#      MUXF6                       : 21
+#      VCC                         : 1
+#      XORCY                       : 46
+# FlipFlops/Latches                : 75
+#      FDC_1                       : 29
+#      FDCE                        : 10
+#      FDE_1                       : 10
+#      FDR_1                       : 25
+#      FDS_1                       : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 2
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      190  out of   4656     4%  
+ Number of Slice Flip Flops:             75  out of   9312     0%  
+ Number of 4 input LUTs:                355  out of   9312     3%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    158     9%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 75    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+--------------------------+-------+
+Control Signal                     | Buffer(FF name)          | Load  |
+-----------------------------------+--------------------------+-------+
+RST(RST1_INV_0:O)                  | NONE(DEM_1SO/DONVI_REG_0)| 39    |
+-----------------------------------+--------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.132ns (Maximum Frequency: 122.975MHz)
+   Minimum input arrival time before clock: 3.478ns
+   Maximum output required time after clock: 4.182ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 8.132ns (frequency: 122.975MHz)
+  Total number of paths / destination ports: 6860 / 111
+-------------------------------------------------------------------------
+Delay:               8.132ns (Levels of Logic = 6)
+  Source:            LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/SLX_13 (FF)
+  Destination:       LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_6 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/SLX_13 to LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            3   0.514   0.603  LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/SLX_13 (LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/SLX_13)
+     LUT3:I0->O            1   0.612   0.360  LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_STATE_cmp_eq000432 (LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/N57)
+     LUT4:I3->O            9   0.612   0.700  LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_cmp_eq00001 (LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/N8)
+     LUT4_D:I3->O         10   0.612   0.902  LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_cmp_eq000024 (LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_cmp_eq0000)
+     LUT3_D:I0->O         10   0.612   0.753  LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_or00011 (LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_or0001)
+     LUT4:I3->O            1   0.612   0.360  LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_mux0001<1>85 (LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_mux0001<1>85)
+     LUT4:I3->O            1   0.612   0.000  LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_mux0001<1>120 (LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_mux0001<1>)
+     FDE_1:D                   0.268          LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_DB_6
+    ----------------------------------------
+    Total                      8.132ns (4.454ns logic, 3.678ns route)
+                                       (54.8% logic, 45.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Offset:              3.478ns (Levels of Logic = 3)
+  Source:            SW0 (PAD)
+  Destination:       DEM_1SO/DONVI_REG_1 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: SW0 to DEM_1SO/DONVI_REG_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.520  SW0_IBUF (SW0_IBUF)
+     LUT3:I1->O            1   0.612   0.360  DEM_1SO/Mcount_DONVI_REG_eqn_1_SW0 (N0)
+     LUT4:I3->O            3   0.612   0.000  DEM_1SO/Mcount_DONVI_REG_eqn_1 (DEM_1SO/Mcount_DONVI_REG_eqn_1)
+     FDCE:D                    0.268          DEM_1SO/DONVI_REG_1
+    ----------------------------------------
+    Total                      3.478ns (2.598ns logic, 0.880ns route)
+                                       (74.7% logic, 25.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.182ns (Levels of Logic = 1)
+  Source:            LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_E (FF)
+  Destination:       LCD_E (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_E to LCD_E
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            4   0.514   0.499  LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_E (LCD_KHOITAO_HIENTHI_CGRAM_SO_TO/LCD_E)
+     OBUF:I->O                 3.169          LCD_E_OBUF (LCD_E)
+    ----------------------------------------
+    Total                      4.182ns (3.683ns logic, 0.499ns route)
+                                       (88.1% logic, 11.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.69 secs
+ 
+--> 
+
+Total memory usage is 293088 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

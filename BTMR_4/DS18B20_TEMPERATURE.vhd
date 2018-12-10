@@ -1,0 +1,179 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY DS18B20_TEMPERATURE IS
+PORT(
+			CKHT, RST: IN STD_LOGIC;
+			DS18B20: INOUT STD_LOGIC;
+			DS_PRESENT: OUT STD_LOGIC;
+			TEMPERATURE_OUT: OUT STD_LOGIC_VECTOR(11 DOWNTO 0)
+);
+END DS18B20_TEMPERATURE;
+
+ARCHITECTURE BEHAVIORAL OF DS18B20_TEMPERATURE IS
+CONSTANT SKIP_ROM: STD_LOGIC_VECTOR(7 DOWNTO 0):=X"CC";
+CONSTANT CONVERT_T: STD_LOGIC_VECTOR(7 DOWNTO 0):=X"44";
+CONSTANT READ_SCRATCHPAD: STD_LOGIC_VECTOR(7 DOWNTO 0):=X"BE";
+TYPE STATE_TYPE IS
+(
+	RESET,
+	SKIP_ROM_CC,
+	WRITE_BYTE,
+	WRITE_BIT_0,
+	WRITE_BIT_1,
+	READ_BIT,
+	CONVERT_T_44,
+	READ_SCRATCHPAD_BE,
+	GET_TEMPERATURE,
+	WAIT4MS
+);
+SIGNAL STATE: STATE_TYPE:=RESET;
+SIGNAL J: INTEGER RANGE 0 TO 200001:=0;
+SIGNAL DS_IN, DS_OUT, DS_ENA: STD_LOGIC;
+SIGNAL WR_STATE_I: INTEGER RANGE 0 TO 4:=0;
+SIGNAL WR_BYTE: STD_LOGIC_VECTOR(7 DOWNTO 0):="00000000";
+SIGNAL WR_PTR: INTEGER RANGE 0 TO 8:=0;
+SIGNAL WR_BIT_0_I: INTEGER RANGE 0 TO 2:=0;
+SIGNAL STATE_WR_BIT_0: INTEGER RANGE 0 TO 2:=0;
+SIGNAL S_RST: INTEGER RANGE 0 TO 3:=0;
+SIGNAL STATE_RD_BIT_0: INTEGER RANGE 0 TO 3:=0;
+SIGNAL RD_PTR: INTEGER RANGE 0 TO 13:=0;
+SIGNAL TEMPERATURE: STD_LOGIC_VECTOR(11 DOWNTO 0);
+
+BEGIN
+	DS18B20 <= DS_OUT WHEN DS_ENA='1' ELSE 'Z';
+	PROCESS(STATE,CKHT,RST)
+	BEGIN
+		IF (RST='1') THEN STATE <= RESET;
+								WR_STATE_I <= 0;
+								WR_BIT_0_I <= 0;
+								STATE_WR_BIT_0 <= 0;
+								WR_PTR <= 0;
+								STATE_RD_BIT_0 <= 0;
+								WR_BYTE <= "00000001";
+		ELSIF RISING_EDGE(CKHT) THEN
+			CASE STATE IS
+				WHEN RESET =>
+					CASE S_RST IS
+						WHEN 0 => DS_OUT <= '0';
+									 DS_ENA <= '1';
+									 IF J=25000 THEN J<=0; S_RST <=1;
+									 ELSE J<=J+1;
+									 END IF;
+						WHEN 1 => DS_ENA <= '0';
+									 IF J=500 THEN J<=0; S_RST <=2;
+									 ELSE J<=J+1;
+									 END IF;
+						WHEN 2 => DS_ENA <= '0';
+									 IF J=12000 THEN J<=0; S_RST <=3;
+									 ELSE J<=J+1;
+									 END IF;
+									 
+									 IF J=3000 THEN DS_PRESENT <= DS18B20;
+														 DS_IN <= DS18B20;
+									 END IF;
+						WHEN 3 => S_RST <= 0;
+									 IF DS_IN='0' THEN STATE<=SKIP_ROM_CC;
+									 ELSE 				 STATE<=RESET;
+									 END IF;
+						WHEN OTHERS => STATE <= RESET;
+					END CASE;
+				WHEN SKIP_ROM_CC => WR_BYTE <= SKIP_ROM;
+										  STATE <= WRITE_BYTE;
+				WHEN WRITE_BYTE =>
+					CASE WR_PTR IS
+						WHEN 0 TO 7 => IF(WR_BYTE(WR_PTR)='0') THEN STATE <= WRITE_BIT_0;
+											ELSE 							  	  STATE <= WRITE_BIT_1;
+											END IF;
+											WR_PTR <= WR_PTR+1;
+						WHEN 8 => IF(WR_STATE_I=0) THEN WR_STATE_I <= 1;
+																  STATE <= CONVERT_T_44;
+									 ELSIF(WR_STATE_I=1) THEN WR_STATE_I <= 2;
+																     STATE <= RESET;
+									 ELSIF(WR_STATE_I=2) THEN WR_STATE_I <= 3;
+																     STATE <= READ_SCRATCHPAD_BE;
+									 ELSIF(WR_STATE_I=3) THEN WR_STATE_I <= 0;
+																	  STATE <= GET_TEMPERATURE;
+									 END IF;
+									 WR_PTR <= 0;
+						WHEN OTHERS => STATE <= RESET;
+					END CASE;
+				  WHEN WRITE_BIT_0 =>
+						CASE WR_BIT_0_I IS
+							WHEN 0 => DS_OUT <= '0';
+									 DS_ENA <= '1';
+									 IF J=3500 THEN J<=0; WR_BIT_0_I <=1;
+									 ELSE J<=J+1;
+									 END IF;
+							WHEN 1 => DS_ENA <= '0';
+									 IF J=250 THEN J<=0; WR_BIT_0_I <=2;
+									 ELSE J<=J+1;
+									 END IF;
+							WHEN 2 => STATE <= WRITE_BYTE;
+										 WR_BIT_0_I <= 0;
+							WHEN OTHERS => WR_BIT_0_I <= 0;
+						END CASE;
+					WHEN WRITE_BIT_1 =>
+						CASE STATE_WR_BIT_0 IS
+							WHEN 0 => DS_OUT <= '0';
+									 DS_ENA <= '1';
+									 IF J=400 THEN J<=0; STATE_WR_BIT_0 <=1;
+									 ELSE J<=J+1;
+									 END IF;
+							WHEN 1 => DS_ENA <= '0';
+									 IF J=3600 THEN J<=0; STATE_WR_BIT_0 <=2;
+									 ELSE J<=J+1;
+									 END IF;
+							WHEN 2 => STATE <= WRITE_BYTE;
+										 STATE_WR_BIT_0 <= 0;
+							WHEN OTHERS => STATE_WR_BIT_0 <= 0;
+						END CASE;
+					WHEN CONVERT_T_44 => WR_BYTE <= CONVERT_T;
+												STATE <= WRITE_BYTE;
+					WHEN READ_SCRATCHPAD_BE => WR_BYTE <= READ_SCRATCHPAD;
+														STATE <= WRITE_BYTE;
+					WHEN READ_BIT =>
+						CASE STATE_RD_BIT_0 IS
+							WHEN 0 => DS_OUT <= '0';
+									 DS_ENA <= '1';
+									 IF J=200 THEN J<=0; STATE_RD_BIT_0 <=1;
+									 ELSE J<=J+1;
+									 END IF;
+							WHEN 1 => DS_ENA <= '0';
+									 IF J=200 THEN J<=0; STATE_RD_BIT_0 <=2;
+									 ELSE J<=J+1;
+									 END IF;
+							WHEN 2 => DS_ENA <= '0';
+										 DS_IN <= DS18B20;
+									 IF J=50 THEN J<=0; STATE_RD_BIT_0 <=3;
+									 ELSE J<=J+1;
+									 END IF;
+							WHEN 3 => DS_ENA <= '0';
+									 IF J=2750 THEN J<=0; STATE_RD_BIT_0 <=0; STATE <= GET_TEMPERATURE;
+									 ELSE J<=J+1;
+									 END IF;
+							WHEN OTHERS => STATE_RD_BIT_0 <= 0;
+						END CASE;
+					WHEN GET_TEMPERATURE =>
+						CASE RD_PTR IS
+							WHEN 0 => STATE <= READ_BIT;
+										 RD_PTR <= RD_PTR+1;
+							WHEN 1 TO 12 => STATE <= READ_BIT;
+												 TEMPERATURE(RD_PTR-1)<=DS_IN;
+												 RD_PTR<=RD_PTR+1;
+							WHEN 13 => RD_PTR <= 0;
+										  STATE <= WAIT4MS;
+						END CASE;
+					WHEN WAIT4MS => IF (J>200000) THEN STATE <= RESET;
+																  J <= 0;
+										 ELSE 				  J <= J+1;
+																  STATE <= WAIT4MS;
+										 END IF;
+					WHEN OTHERS => STATE <= RESET;
+				END CASE;
+			END IF;
+		END PROCESS;
+		TEMPERATURE_OUT <= TEMPERATURE;
+END BEHAVIORAL;

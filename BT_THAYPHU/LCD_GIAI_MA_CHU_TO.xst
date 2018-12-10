@@ -1,0 +1,5 @@
+set -tmpdir "D:/THUC TAP VHDL XILINX/BT_THAYPHU/xst/projnav.tmp"
+set -xsthdpdir "D:/THUC TAP VHDL XILINX/BT_THAYPHU/xst"
+elaborate
+-ifn LCD_GIAI_MA_CHU_TO.prj
+-ifmt mixed

@@ -1,0 +1,1135 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: LCD_NHIET_DO_DS18B20.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LCD_NHIET_DO_DS18B20.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LCD_NHIET_DO_DS18B20"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : LCD_NHIET_DO_DS18B20
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/LAM_HEP_XUNG.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/CD_LAM_HEP_BTN.vhd" in Library work.
+Architecture behavioral of Entity cd_lam_hep_btn is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/DEM_1BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_1bit is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/DS18B20_TEMPERATURE.vhd" in Library work.
+Architecture behavioral of Entity ds18b20_temperature is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/HEXTOBCD_8BIT.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_8bit is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/DEM_2SO.vhd" in Library work.
+Entity <dem_2so> compiled.
+Entity <dem_2so> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_GIAI_MA_SO_TO.vhd" in Library work.
+Architecture behavioral of Entity lcd_giai_ma_so_to is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/DEM_1BIT_BTN.vhd" in Library work.
+Architecture behavioral of Entity dem_1bit_btn is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_GAN_DULIEU_1SO_TO.vhd" in Library work.
+Architecture behavioral of Entity lcd_gan_dulieu_1so_to is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_KHOITAO_HIENTHI.vhd" in Library work.
+Architecture behavioral of Entity lcd_khoitao_hienthi is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd" in Library work.
+Architecture behavioral of Entity lcd_nhiet_do_ds18b20 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LCD_NHIET_DO_DS18B20> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DS18B20_TEMPERATURE> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <HEXTOBCD_8BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_2SO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_GIAI_MA_SO_TO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_1BIT_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_GAN_DULIEU_1SO_TO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_KHOITAO_HIENTHI> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CD_LAM_HEP_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_1BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCE_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LAM_HEP_XUNG> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LCD_NHIET_DO_DS18B20> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd" line 70: Unconnected output port 'ENA1HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd" line 70: Unconnected output port 'ENA2HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd" line 70: Unconnected output port 'ENA20HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd" line 70: Unconnected output port 'ENA25HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd" line 70: Unconnected output port 'ENA50HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd" line 70: Unconnected output port 'ENA100HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd" line 70: Unconnected output port 'ENA1KHZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd" line 70: Unconnected output port 'ENA1MHZ' of component 'CHIA_10ENA'.
+Entity <LCD_NHIET_DO_DS18B20> analyzed. Unit <LCD_NHIET_DO_DS18B20> generated.
+
+Analyzing Entity <DS18B20_TEMPERATURE> in library <work> (Architecture <BEHAVIORAL>).
+INFO:Xst:2679 - Register <DS_OUT> in unit <DS18B20_TEMPERATURE> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <DS18B20_TEMPERATURE> analyzed. Unit <DS18B20_TEMPERATURE> generated.
+
+Analyzing Entity <HEXTOBCD_8BIT> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_8BIT> analyzed. Unit <HEXTOBCD_8BIT> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <DEM_2SO> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "D:/THUC TAP VHDL XILINX/BTMR_4/DEM_2SO.vhd" line 18: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <CHUC_REG>, <DONVI_REG>
+Entity <DEM_2SO> analyzed. Unit <DEM_2SO> generated.
+
+Analyzing Entity <LCD_GIAI_MA_SO_TO> in library <work> (Architecture <Behavioral>).
+Entity <LCD_GIAI_MA_SO_TO> analyzed. Unit <LCD_GIAI_MA_SO_TO> generated.
+
+Analyzing Entity <DEM_1BIT_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEM_1BIT_BTN> analyzed. Unit <DEM_1BIT_BTN> generated.
+
+Analyzing Entity <CD_LAM_HEP_BTN> in library <work> (Architecture <Behavioral>).
+Entity <CD_LAM_HEP_BTN> analyzed. Unit <CD_LAM_HEP_BTN> generated.
+
+Analyzing Entity <DEBOUNCE_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEBOUNCE_BTN> analyzed. Unit <DEBOUNCE_BTN> generated.
+
+Analyzing Entity <LAM_HEP_XUNG> in library <work> (Architecture <Behavioral>).
+Entity <LAM_HEP_XUNG> analyzed. Unit <LAM_HEP_XUNG> generated.
+
+Analyzing Entity <DEM_1BIT> in library <work> (Architecture <Behavioral>).
+Entity <DEM_1BIT> analyzed. Unit <DEM_1BIT> generated.
+
+Analyzing Entity <LCD_GAN_DULIEU_1SO_TO> in library <work> (Architecture <Behavioral>).
+Entity <LCD_GAN_DULIEU_1SO_TO> analyzed. Unit <LCD_GAN_DULIEU_1SO_TO> generated.
+
+Analyzing Entity <LCD_KHOITAO_HIENTHI> in library <work> (Architecture <Behavioral>).
+Entity <LCD_KHOITAO_HIENTHI> analyzed. Unit <LCD_KHOITAO_HIENTHI> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DS18B20_TEMPERATURE>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/DS18B20_TEMPERATURE.vhd".
+    Found finite state machine <FSM_0> for signal <STATE>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 54                                             |
+    | Inputs             | 38                                             |
+    | Outputs            | 13                                             |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | reset                                          |
+    | Power Up State     | reset                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <WR_BIT_0_I>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Clock enable       | STATE$cmp_eq0036          (positive)           |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <STATE_RD_BIT_0>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Clock enable       | STATE$cmp_eq0038          (positive)           |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_3> for signal <S_RST>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Clock enable       | S_RST$and0000             (positive)           |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_4> for signal <STATE_WR_BIT_0>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Clock enable       | STATE$cmp_eq0037          (positive)           |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_5> for signal <WR_STATE_I>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Clock enable       | WR_STATE_I$not0000        (positive)           |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit tristate buffer for signal <DS18B20>.
+    Found 1-bit register for signal <DS_PRESENT>.
+    Found 1-bit register for signal <DS_ENA>.
+    Found 1-bit register for signal <DS_IN>.
+    Found 18-bit register for signal <J>.
+    Found 18-bit adder for signal <J$add0000> created at line 142.
+    Found 4-bit register for signal <RD_PTR>.
+    Found 4-bit adder for signal <RD_PTR$addsub0000> created at line 162.
+    Found 4-bit 14-to-1 multiplexer for signal <RD_PTR$mux0000> created at line 160.
+    Found 18-bit comparator greater for signal <STATE$cmp_gt0000> created at line 169.
+    Found 12-bit register for signal <TEMPERATURE>.
+    Found 8-bit register for signal <WR_BYTE>.
+    Found 1-bit 8-to-1 multiplexer for signal <WR_BYTE$mux0000> created at line 87.
+    Found 4-bit register for signal <WR_PTR>.
+    Found 4-bit adder for signal <WR_PTR$addsub0000> created at line 90.
+    Summary:
+	inferred   6 Finite State Machine(s).
+	inferred  41 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   5 Multiplexer(s).
+	inferred   1 Tristate(s).
+Unit <DS18B20_TEMPERATURE> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_8BIT>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/HEXTOBCD_8BIT.vhd".
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0001> created at line 26.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0002> created at line 26.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0003> created at line 26.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0004> created at line 26.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0000> created at line 27.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0001> created at line 27.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0002> created at line 27.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0003> created at line 27.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0004> created at line 27.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0001> created at line 30.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0000> created at line 31.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0001> created at line 31.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <HEXTOBCD_8BIT> synthesized.
+
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/CHIA_10ENA.vhd".
+    Found 19-bit adder for signal <D100HZ_NEXT$addsub0000> created at line 45.
+    Found 19-bit register for signal <D100HZ_REG>.
+    Found 23-bit adder for signal <D10HZ_NEXT$addsub0000> created at line 53.
+    Found 23-bit register for signal <D10HZ_REG>.
+    Found 26-bit adder for signal <D1HZ_NEXT$addsub0000> created at line 59.
+    Found 26-bit register for signal <D1HZ_REG>.
+    Found 16-bit adder for signal <D1KHZ_NEXT$addsub0000> created at line 43.
+    Found 16-bit register for signal <D1KHZ_REG>.
+    Found 3-bit adder for signal <D1MHZ_NEXT$addsub0000> created at line 41.
+    Found 3-bit register for signal <D1MHZ_REG>.
+    Found 22-bit adder for signal <D20HZ_NEXT$addsub0000> created at line 51.
+    Found 22-bit register for signal <D20HZ_REG>.
+    Found 21-bit adder for signal <D25HZ_NEXT$addsub0000> created at line 49.
+    Found 21-bit register for signal <D25HZ_REG>.
+    Found 25-bit adder for signal <D2HZ_NEXT$addsub0000> created at line 57.
+    Found 25-bit register for signal <D2HZ_REG>.
+    Found 20-bit adder for signal <D50HZ_NEXT$addsub0000> created at line 47.
+    Found 20-bit register for signal <D50HZ_REG>.
+    Found 24-bit adder for signal <D5HZ_NEXT$addsub0000> created at line 55.
+    Found 24-bit register for signal <D5HZ_REG>.
+    Summary:
+	inferred 199 D-type flip-flop(s).
+	inferred  10 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <DEM_2SO>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/DEM_2SO.vhd".
+    Found 4-bit up counter for signal <CHUC_REG>.
+    Found 4-bit up counter for signal <DONVI_REG>.
+    Summary:
+	inferred   2 Counter(s).
+Unit <DEM_2SO> synthesized.
+
+
+Synthesizing Unit <LCD_GIAI_MA_SO_TO>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_GIAI_MA_SO_TO.vhd".
+    Found 60x8-bit ROM for signal <MA_SO<0>>.
+    Found 59x8-bit ROM for signal <MA_SO<1>>.
+    Found 58x8-bit ROM for signal <MA_SO<2>>.
+    Found 57x8-bit ROM for signal <MA_SO<3>>.
+    Found 56x8-bit ROM for signal <MA_SO<4>>.
+    Found 55x8-bit ROM for signal <MA_SO<5>>.
+    Found 4x3-bit multiplier for signal <MA_SO_0$mult0000> created at line 38.
+    Summary:
+	inferred   6 ROM(s).
+	inferred   1 Multiplier(s).
+Unit <LCD_GIAI_MA_SO_TO> synthesized.
+
+
+Synthesizing Unit <LCD_GAN_DULIEU_1SO_TO>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_GAN_DULIEU_1SO_TO.vhd".
+WARNING:Xst:647 - Input <LCD_MA_DONVI<15:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <LCD_GAN_DULIEU_1SO_TO> synthesized.
+
+
+Synthesizing Unit <LCD_KHOITAO_HIENTHI>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_KHOITAO_HIENTHI.vhd".
+    Found 64x8-bit ROM for signal <LCD_DB$rom0000> created at line 118.
+    Found finite state machine <FSM_6> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 30                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 12                                             |
+    | Clock              | LCD_CK                    (falling_edge)       |
+    | Reset              | LCD_RST                   (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_init                                       |
+    | Power Up State     | lcd_init                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6x8-bit ROM for signal <LCD_DB$mux0000> created at line 97.
+    Found 1-bit register for signal <LCD_E>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0000> created at line 140.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0001> created at line 161.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0002> created at line 183.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0003> created at line 205.
+    Found 6-bit register for signal <CGRAM_PTR>.
+    Found 6-bit adder for signal <CGRAM_PTR$share0000> created at line 87.
+    Found 5-bit register for signal <PTR>.
+    Found 5-bit adder for signal <PTR$addsub0000>.
+    Found 20-bit register for signal <SLX>.
+    Found 20-bit adder for signal <SLX$share0000> created at line 87.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 ROM(s).
+	inferred  41 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <LCD_KHOITAO_HIENTHI> synthesized.
+
+
+Synthesizing Unit <DEM_1BIT>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/DEM_1BIT.vhd".
+    Found 1-bit register for signal <Q_REG>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DEM_1BIT> synthesized.
+
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/DEBOUNCE_BTN.vhd".
+    Found finite state machine <FSM_7> for signal <DB_REG>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit register for signal <DELAY_REG>.
+    Found 20-bit subtractor for signal <DELAY_REG$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+
+Synthesizing Unit <CD_LAM_HEP_BTN>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/CD_LAM_HEP_BTN.vhd".
+Unit <CD_LAM_HEP_BTN> synthesized.
+
+
+Synthesizing Unit <DEM_1BIT_BTN>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/DEM_1BIT_BTN.vhd".
+Unit <DEM_1BIT_BTN> synthesized.
+
+
+Synthesizing Unit <LCD_NHIET_DO_DS18B20>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BTMR_4/LCD_DEM_0_255.vhd".
+WARNING:Xst:1306 - Output <LED> is never assigned.
+WARNING:Xst:646 - Signal <LED2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <ENADB> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ENA10HZ> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <LCD_NHIET_DO_DS18B20> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 26
+ 55x8-bit ROM                                          : 4
+ 56x8-bit ROM                                          : 4
+ 57x8-bit ROM                                          : 4
+ 58x8-bit ROM                                          : 4
+ 59x8-bit ROM                                          : 4
+ 60x8-bit ROM                                          : 4
+ 64x8-bit ROM                                          : 1
+ 6x8-bit ROM                                           : 1
+# Multipliers                                          : 4
+ 4x3-bit multiplier                                    : 4
+# Adders/Subtractors                                   : 26
+ 16-bit adder                                          : 1
+ 18-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 2
+ 20-bit subtractor                                     : 3
+ 21-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 9
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 2
+ 4-bit up counter                                      : 2
+# Registers                                            : 44
+ 1-bit register                                        : 23
+ 16-bit register                                       : 1
+ 18-bit register                                       : 1
+ 19-bit register                                       : 1
+ 20-bit register                                       : 5
+ 21-bit register                                       : 1
+ 22-bit register                                       : 1
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 25-bit register                                       : 1
+ 26-bit register                                       : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 2
+ 5-bit register                                        : 1
+ 6-bit register                                        : 1
+ 8-bit register                                        : 2
+# Comparators                                          : 8
+ 18-bit comparator greater                             : 1
+ 4-bit comparator greatequal                           : 7
+# Multiplexers                                         : 6
+ 1-bit 8-to-1 multiplexer                              : 1
+ 4-bit 14-to-1 multiplexer                             : 1
+ 8-bit 20-to-1 multiplexer                             : 4
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_7> for best encoding.
+Optimizing FSM <DEM_1BIT_BTNSS/CD_LAM_HEP_BTN/DEBOUNCE_BTN/DB_REG/FSM> on signal <DB_REG[1:2]> with gray encoding.
+Optimizing FSM <DEM_1BIT_BTN1/CD_LAM_HEP_BTN/DEBOUNCE_BTN/DB_REG/FSM> on signal <DB_REG[1:2]> with gray encoding.
+Optimizing FSM <DEM_1BIT_BTN2/CD_LAM_HEP_BTN/DEBOUNCE_BTN/DB_REG/FSM> on signal <DB_REG[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 10
+ one   | 11
+ wait1 | 01
+-------------------
+Analyzing FSM <FSM_6> for best encoding.
+Optimizing FSM <LCD_KHOITAO_HIENTHI/LCD_STATE/FSM> on signal <LCD_STATE[1:4]> with user encoding.
+----------------------------
+ State          | Encoding
+----------------------------
+ lcd_init       | 0000
+ lcd_cgram_addr | 0001
+ lcd_cgram_data | 0010
+ lcd_addr_l1    | 0011
+ lcd_data_l1    | 0100
+ lcd_addr_l2    | 0101
+ lcd_data_l2    | 0110
+ lcd_addr_l3    | 0111
+ lcd_data_l3    | 1000
+ lcd_addr_l4    | 1001
+ lcd_data_l4    | 1010
+ lcd_stop       | 1011
+----------------------------
+Analyzing FSM <FSM_5> for best encoding.
+Optimizing FSM <DS18B20_TEMPERATURE/WR_STATE_I/FSM> on signal <WR_STATE_I[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 0001
+ 001   | 0010
+ 010   | 0100
+ 011   | 1000
+-------------------
+Analyzing FSM <FSM_4> for best encoding.
+Optimizing FSM <DS18B20_TEMPERATURE/STATE_WR_BIT_0/FSM> on signal <STATE_WR_BIT_0[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <DS18B20_TEMPERATURE/S_RST/FSM> on signal <S_RST[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <DS18B20_TEMPERATURE/STATE_RD_BIT_0/FSM> on signal <STATE_RD_BIT_0[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <DS18B20_TEMPERATURE/WR_BIT_0_I/FSM> on signal <WR_BIT_0_I[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <DS18B20_TEMPERATURE/STATE/FSM> on signal <STATE[1:10]> with one-hot encoding.
+----------------------------------
+ State              | Encoding
+----------------------------------
+ reset              | 0000000001
+ skip_rom_cc        | 0000000010
+ write_byte         | 0000000100
+ write_bit_0        | 0000001000
+ write_bit_1        | 0000010000
+ read_bit           | 0100000000
+ convert_t_44       | 0000100000
+ read_scratchpad_be | 0001000000
+ get_temperature    | 0010000000
+ wait4ms            | 1000000000
+----------------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 8
+# ROMs                                                 : 26
+ 55x8-bit ROM                                          : 4
+ 56x8-bit ROM                                          : 4
+ 57x8-bit ROM                                          : 4
+ 58x8-bit ROM                                          : 4
+ 59x8-bit ROM                                          : 4
+ 60x8-bit ROM                                          : 4
+ 64x8-bit ROM                                          : 1
+ 6x8-bit ROM                                           : 1
+# Multipliers                                          : 4
+ 4x3-bit multiplier                                    : 4
+# Adders/Subtractors                                   : 25
+ 16-bit adder                                          : 1
+ 18-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 2
+ 20-bit subtractor                                     : 3
+ 21-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 9
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 2
+ 4-bit up counter                                      : 2
+# Registers                                            : 352
+ Flip-Flops                                            : 352
+# Comparators                                          : 8
+ 18-bit comparator greater                             : 1
+ 4-bit comparator greatequal                           : 7
+# Multiplexers                                         : 6
+ 1-bit 8-to-1 multiplexer                              : 1
+ 4-bit 14-to-1 multiplexer                             : 1
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LCD_NHIET_DO_DS18B20> ...
+
+Optimizing unit <HEXTOBCD_8BIT> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <DEM_2SO> ...
+
+Optimizing unit <LCD_KHOITAO_HIENTHI> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_22> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_21> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_20> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_19> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_18> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_17> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_16> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_15> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_14> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_13> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_12> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_11> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_10> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_9> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_8> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_7> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_6> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_5> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_4> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_3> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_2> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_1> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D10HZ_REG_0> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_15> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_14> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_13> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_12> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_11> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_10> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_9> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_8> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_7> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_6> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_5> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_4> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_3> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_2> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_1> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1KHZ_REG_0> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_21> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_20> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_19> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_18> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_17> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_16> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_15> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_14> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_13> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_12> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_11> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_10> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_9> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_8> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_7> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_6> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_5> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_4> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_3> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_2> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_1> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D20HZ_REG_0> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_20> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_19> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_18> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_17> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_16> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_15> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_14> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_13> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_12> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_11> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_10> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_9> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_8> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_7> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_6> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_5> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_4> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_3> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_2> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_1> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D25HZ_REG_0> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_18> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_17> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_16> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_15> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_14> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_13> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_12> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_11> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_10> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_9> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_8> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_7> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_6> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_5> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_4> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_3> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_2> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_1> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D100HZ_REG_0> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_25> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_24> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_23> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_22> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_21> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_20> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_19> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_18> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_17> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_16> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_15> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_14> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_13> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_12> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_11> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_10> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_9> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_8> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_7> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_6> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_5> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_4> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_3> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_2> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_1> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D1HZ_REG_0> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_19> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_18> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_17> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_16> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_15> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_14> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_13> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_12> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_11> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_10> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_9> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_8> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_7> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_6> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_5> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_4> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_3> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_2> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_1> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D50HZ_REG_0> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_24> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_23> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_22> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_21> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_20> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_19> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_18> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_17> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_16> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_15> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_14> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_13> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_12> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_11> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_10> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_9> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_8> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_7> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_6> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_5> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_4> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_3> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_2> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_1> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+WARNING:Xst:2677 - Node <CHIA_10ENA/D2HZ_REG_0> of sequential type is unconnected in block <LCD_NHIET_DO_DS18B20>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LCD_NHIET_DO_DS18B20, actual ratio is 13.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 220
+ Flip-Flops                                            : 220
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LCD_NHIET_DO_DS18B20.ngr
+Top Level Output File Name         : LCD_NHIET_DO_DS18B20
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 26
+
+Cell Usage :
+# BELS                             : 1748
+#      GND                         : 1
+#      INV                         : 73
+#      LUT1                        : 64
+#      LUT2                        : 77
+#      LUT3                        : 288
+#      LUT3_D                      : 3
+#      LUT3_L                      : 1
+#      LUT4                        : 608
+#      LUT4_D                      : 11
+#      LUT4_L                      : 16
+#      MUXCY                       : 140
+#      MUXF5                       : 247
+#      MUXF6                       : 96
+#      VCC                         : 1
+#      XORCY                       : 122
+# FlipFlops/Latches                : 220
+#      FD_1                        : 9
+#      FDC                         : 16
+#      FDC_1                       : 30
+#      FDCE                        : 21
+#      FDCE_1                      : 3
+#      FDE                         : 39
+#      FDE_1                       : 15
+#      FDP                         : 2
+#      FDPE                        : 1
+#      FDR_1                       : 23
+#      FDS_1                       : 61
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 4
+#      IOBUF                       : 1
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      619  out of   4656    13%  
+ Number of Slice Flip Flops:            220  out of   9312     2%  
+ Number of 4 input LUTs:               1141  out of   9312    12%  
+ Number of IOs:                          26
+ Number of bonded IOBs:                  22  out of    158    13%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 220   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------------------+-----------------------------------+-------+
+Control Signal                                        | Buffer(FF name)                   | Load  |
+------------------------------------------------------+-----------------------------------+-------+
+RST(RST1_INV_0:O)                                     | NONE(DEM_1BIT_BTN1/DEM_1BIT/Q_REG)| 65    |
+DEM_2SO/DONVI_REG_or0000(DEM_2SO/DONVI_REG_or000037:O)| NONE(DEM_2SO/CHUC_REG_0)          | 8     |
+------------------------------------------------------+-----------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 32.578ns (Maximum Frequency: 30.696MHz)
+   Minimum input arrival time before clock: 5.302ns
+   Maximum output required time after clock: 5.032ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 32.578ns (frequency: 30.696MHz)
+  Total number of paths / destination ports: 195459 / 347
+-------------------------------------------------------------------------
+Delay:               16.289ns (Levels of Logic = 16)
+  Source:            DS18B20_TEMPERATURE/TEMPERATURE_11 (FF)
+  Destination:       LCD_KHOITAO_HIENTHI/LCD_DB_5 (FF)
+  Source Clock:      CKHT rising
+  Destination Clock: CKHT falling
+
+  Data Path: DS18B20_TEMPERATURE/TEMPERATURE_11 to LCD_KHOITAO_HIENTHI/LCD_DB_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             13   0.514   0.988  DS18B20_TEMPERATURE/TEMPERATURE_11 (DS18B20_TEMPERATURE/TEMPERATURE_11)
+     LUT4_D:I0->O          1   0.612   0.387  HEXTOBCD/BCD_HEX_9_mux0002_SW1 (N107)
+     LUT3:I2->O           12   0.612   0.820  HEXTOBCD/BCD_HEX_9_mux0002 (HEXTOBCD/Madd_BCD_HEX_11_8_add0003_lut<2>)
+     LUT4:I3->O            1   0.612   0.000  HEXTOBCD/BCD_HEX_11_mux000311 (HEXTOBCD/BCD_HEX_11_mux00031)
+     MUXF5:I1->O           5   0.278   0.541  HEXTOBCD/BCD_HEX_11_mux00031_f5 (HEXTOBCD/Madd_BCD_HEX_15_12_add0001_cy<0>)
+     LUT4:I3->O            1   0.612   0.000  HEXTOBCD/BCD_HEX_12_mux00011 (HEXTOBCD/BCD_HEX_12_mux0001)
+     MUXF5:I1->O           1   0.278   0.000  HEXTOBCD/BCD_HEX_12_mux0001_f5 (HEXTOBCD/BCD_HEX_12_mux0001_f5)
+     MUXF6:I1->O          89   0.451   1.157  HEXTOBCD/BCD_HEX_12_mux0001_f6 (CHUC<1>)
+     LUT2:I1->O            1   0.612   0.360  LCD_GIAI_MA_SO_TO_CH/MA_SO_0_mult0000<4>_SW1 (N113)
+     LUT4:I3->O           41   0.612   1.075  LCD_GIAI_MA_SO_TO_CH/MA_SO_0_mult0000<4> (LCD_GIAI_MA_SO_TO_CH/MA_SO_0_mult0000<4>)
+     MUXF5:S->O            1   0.641   0.000  LCD_GIAI_MA_SO_TO_CH/Mrom_MA_SO<1>5_f5 (LCD_GIAI_MA_SO_TO_CH/Mrom_MA_SO<1>5_f5)
+     MUXF6:I0->O           1   0.451   0.387  LCD_GIAI_MA_SO_TO_CH/Mrom_MA_SO<1>5_f6 (LCD_GIAI_MA_SO_TO_CH/Mrom_MA_SO<1>5_f6)
+     LUT3:I2->O            1   0.612   0.360  LCD_KHOITAO_HIENTHI/PTR<2>1120 (LCD_KHOITAO_HIENTHI/PTR<2>1120)
+     LUT4:I3->O            1   0.612   0.000  LCD_KHOITAO_HIENTHI/Mmux__varindex0000_83 (LCD_KHOITAO_HIENTHI/Mmux__varindex0000_83)
+     MUXF5:I1->O           1   0.278   0.426  LCD_KHOITAO_HIENTHI/Mmux__varindex0000_7_f5_0 (LCD_KHOITAO_HIENTHI/Mmux__varindex0000_7_f51)
+     LUT4:I1->O            1   0.612   0.509  LCD_KHOITAO_HIENTHI/LCD_DB_mux0001<2>77 (LCD_KHOITAO_HIENTHI/LCD_DB_mux0001<2>77)
+     LUT4:I0->O            1   0.612   0.000  LCD_KHOITAO_HIENTHI/LCD_DB_mux0001<2>112 (LCD_KHOITAO_HIENTHI/LCD_DB_mux0001<2>)
+     FDE_1:D                   0.268          LCD_KHOITAO_HIENTHI/LCD_DB_5
+    ----------------------------------------
+    Total                     16.289ns (9.279ns logic, 7.010ns route)
+                                       (57.0% logic, 43.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 122 / 122
+-------------------------------------------------------------------------
+Offset:              5.302ns (Levels of Logic = 3)
+  Source:            BTN_N<0> (PAD)
+  Destination:       DS18B20_TEMPERATURE/TEMPERATURE_9 (FF)
+  Destination Clock: CKHT rising
+
+  Data Path: BTN_N<0> to DS18B20_TEMPERATURE/TEMPERATURE_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            42   1.106   1.228  BTN_N_0_IBUF (BTN_N_0_IBUF)
+     LUT2:I0->O           13   0.612   0.905  DS18B20_TEMPERATURE/TEMPERATURE_0_and000011 (DS18B20_TEMPERATURE/RD_PTR_and0001)
+     LUT4:I1->O            1   0.612   0.357  DS18B20_TEMPERATURE/TEMPERATURE_9_and00001 (DS18B20_TEMPERATURE/TEMPERATURE_9_and0000)
+     FDE:CE                    0.483          DS18B20_TEMPERATURE/TEMPERATURE_9
+    ----------------------------------------
+    Total                      5.302ns (2.813ns logic, 2.489ns route)
+                                       (53.1% logic, 46.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 15 / 15
+-------------------------------------------------------------------------
+Offset:              5.032ns (Levels of Logic = 2)
+  Source:            DS18B20_TEMPERATURE/DS_ENA (FF)
+  Destination:       DS18B20 (PAD)
+  Source Clock:      CKHT rising
+
+  Data Path: DS18B20_TEMPERATURE/DS_ENA to DS18B20
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.514   0.380  DS18B20_TEMPERATURE/DS_ENA (DS18B20_TEMPERATURE/DS_ENA)
+     INV:I->O              1   0.612   0.357  DS18B20_TEMPERATURE/DS_ENA_inv1_INV_0 (DS18B20_TEMPERATURE/DS_ENA_inv)
+     IOBUF:T->IO               3.169          DS18B20_IOBUF (DS18B20)
+    ----------------------------------------
+    Total                      5.032ns (4.295ns logic, 0.737ns route)
+                                       (85.4% logic, 14.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 17.00 secs
+Total CPU time to Xst completion: 17.10 secs
+ 
+--> 
+
+Total memory usage is 4599720 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  186 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

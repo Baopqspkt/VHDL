@@ -1,0 +1,163 @@
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_643_LCD_DEM_00_99_HT_SO_TO/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_DEM_00_99_SO_TO.ngc LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_643_MORONG/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.xst" -ofn "D:/THUC TAP VHDL XILINX/BT_THAYPHU/LCD_DEM_00_99_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_DEM_00_99_SO_TO.ngc" LCD_DEM_00_99_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ngd LCD_DEM_00_99_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_DEM_00_99_SO_TO_map.ncd LCD_DEM_00_99_SO_TO.ncd LCD_DEM_00_99_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_DEM_00_99_SO_TO.twx LCD_DEM_00_99_SO_TO.ncd -o LCD_DEM_00_99_SO_TO.twr LCD_DEM_00_99_SO_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_DEM_00_99_SO_TO.ut LCD_DEM_00_99_SO_TO.ncd 

@@ -1,0 +1,272 @@
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_605_LCD_NHIET_DO__DS18B20/LCD_NHIET_DO_DS18B20.xst" -ofn "E:/DTTT/TT_VHDL/BAI_605_LCD_NHIET_DO__DS18B20/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_605_LCD_NHIET_DO__DS18B20/LCD_NHIET_DO_DS18B20.xst" -ofn "E:/DTTT/TT_VHDL/BAI_605_LCD_NHIET_DO__DS18B20/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_NHIET_DO_DS18B20.ngc LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_605_LCD_NHIET_DO__DS18B20/LCD_NHIET_DO_DS18B20.xst" -ofn "E:/DTTT/TT_VHDL/BAI_605_LCD_NHIET_DO__DS18B20/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_NHIET_DO_DS18B20.ngc LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BAI_605_MORONG - SOTO -BAI_605_MORONG_SOTO_CHUTO/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_5/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.syr" 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 
+xst -intstyle ise -ifn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.xst" -ofn "D:/THUC TAP VHDL XILINX/BTMR_6/LCD_NHIET_DO_DS18B20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_NHIET_DO_DS18B20.ngc" LCD_NHIET_DO_DS18B20.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ngd LCD_NHIET_DO_DS18B20.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_NHIET_DO_DS18B20_map.ncd LCD_NHIET_DO_DS18B20.ncd LCD_NHIET_DO_DS18B20.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_NHIET_DO_DS18B20.twx LCD_NHIET_DO_DS18B20.ncd -o LCD_NHIET_DO_DS18B20.twr LCD_NHIET_DO_DS18B20.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_NHIET_DO_DS18B20.ut LCD_NHIET_DO_DS18B20.ncd 

@@ -1,0 +1,4 @@
+vhdl work "LCD_KHOITAO_HIENTHI.vhd"
+vhdl work "LCD_GAN_DULIEU_HENTHI.vhd"
+vhdl work "chia_10ENA.vhd"
+vhdl work "DICH_1_HANG_HIENTHI.vhd"

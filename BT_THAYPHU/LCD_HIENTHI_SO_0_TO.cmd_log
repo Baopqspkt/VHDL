@@ -1,0 +1,55 @@
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc7a100t-csg324-3 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+par -w -intstyle ise -ol high -mt off LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ncd LCD_HIENTHI_SO_0_TO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LCD_HIENTHI_SO_0_TO.twx LCD_HIENTHI_SO_0_TO.ncd -o LCD_HIENTHI_SO_0_TO.twr LCD_HIENTHI_SO_0_TO.pcf 
+bitgen -intstyle ise -f LCD_HIENTHI_SO_0_TO.ut LCD_HIENTHI_SO_0_TO.ncd 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc7a100t-csg324-3 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc7a100t-csg324-3 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc7a100t-csg324-3 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_641_LCD_HIENTHI_SO_0_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ncd LCD_HIENTHI_SO_0_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_SO_0_TO.twx LCD_HIENTHI_SO_0_TO.ncd -o LCD_HIENTHI_SO_0_TO.twr LCD_HIENTHI_SO_0_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_SO_0_TO.ut LCD_HIENTHI_SO_0_TO.ncd 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.syr" 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ncd LCD_HIENTHI_SO_0_TO.pcf 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ncd LCD_HIENTHI_SO_0_TO.pcf 
+bitgen -intstyle ise -f LCD_HIENTHI_SO_0_TO.ut LCD_HIENTHI_SO_0_TO.ncd 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ncd LCD_HIENTHI_SO_0_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_SO_0_TO.twx LCD_HIENTHI_SO_0_TO.ncd -o LCD_HIENTHI_SO_0_TO.twr LCD_HIENTHI_SO_0_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_SO_0_TO.ut LCD_HIENTHI_SO_0_TO.ncd 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ncd LCD_HIENTHI_SO_0_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_SO_0_TO.twx LCD_HIENTHI_SO_0_TO.ncd -o LCD_HIENTHI_SO_0_TO.twr LCD_HIENTHI_SO_0_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_SO_0_TO.ut LCD_HIENTHI_SO_0_TO.ncd 
+xst -intstyle ise -ifn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.xst" -ofn "E:/DTTT/TT_VHDL/BAI_642_LCD_DEM_0_9_HIENTHI_SO_TO/LCD_HIENTHI_SO_0_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_SO_0_TO.ngc LCD_HIENTHI_SO_0_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ngd LCD_HIENTHI_SO_0_TO.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_SO_0_TO_map.ncd LCD_HIENTHI_SO_0_TO.ncd LCD_HIENTHI_SO_0_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_SO_0_TO.twx LCD_HIENTHI_SO_0_TO.ncd -o LCD_HIENTHI_SO_0_TO.twr LCD_HIENTHI_SO_0_TO.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_SO_0_TO.ut LCD_HIENTHI_SO_0_TO.ncd 

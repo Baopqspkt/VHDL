@@ -1,0 +1,755 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: DICH_1_HANG_HIENTHI.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DICH_1_HANG_HIENTHI.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DICH_1_HANG_HIENTHI"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : DICH_1_HANG_HIENTHI
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/chia_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/LCD_GAN_DULIEU_HENTHI.vhd" in Library work.
+Entity <lcd_gan_dulieu_hienthi> compiled.
+Entity <lcd_gan_dulieu_hienthi> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/LCD_KHOITAO_HIENTHI.vhd" in Library work.
+Architecture behavioral of Entity lcd_khoitao_hienthi is up to date.
+Compiling vhdl file "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" in Library work.
+Architecture behavioral of Entity dich_1_hang_hienthi is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DICH_1_HANG_HIENTHI> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <chia_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_GAN_DULIEU_HIENTHI> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_KHOITAO_HIENTHI> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DICH_1_HANG_HIENTHI> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" line 53: Unconnected output port 'ENA1HZ' of component 'chia_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" line 53: Unconnected output port 'ENA5HZ' of component 'chia_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" line 53: Unconnected output port 'ENA10HZ' of component 'chia_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" line 53: Unconnected output port 'ENA20HZ' of component 'chia_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" line 53: Unconnected output port 'ENA25HZ' of component 'chia_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" line 53: Unconnected output port 'ENA50HZ' of component 'chia_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" line 53: Unconnected output port 'ENA100HZ' of component 'chia_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" line 53: Unconnected output port 'ENA1KHZ' of component 'chia_10ENA'.
+WARNING:Xst:753 - "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd" line 53: Unconnected output port 'ENA1MHZ' of component 'chia_10ENA'.
+Entity <DICH_1_HANG_HIENTHI> analyzed. Unit <DICH_1_HANG_HIENTHI> generated.
+
+Analyzing Entity <chia_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <chia_10ENA> analyzed. Unit <chia_10ENA> generated.
+
+Analyzing Entity <LCD_GAN_DULIEU_HIENTHI> in library <work> (Architecture <Behavioral>).
+Entity <LCD_GAN_DULIEU_HIENTHI> analyzed. Unit <LCD_GAN_DULIEU_HIENTHI> generated.
+
+Analyzing Entity <LCD_KHOITAO_HIENTHI> in library <work> (Architecture <Behavioral>).
+Entity <LCD_KHOITAO_HIENTHI> analyzed. Unit <LCD_KHOITAO_HIENTHI> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <chia_10ENA>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/chia_10ENA.vhd".
+    Found 19-bit adder for signal <D100HZ_NEXT$addsub0000> created at line 92.
+    Found 19-bit register for signal <D100HZ_REG>.
+    Found 23-bit adder for signal <D10HZ_NEXT$addsub0000> created at line 88.
+    Found 23-bit register for signal <D10HZ_REG>.
+    Found 26-bit adder for signal <D1HZ_NEXT$addsub0000> created at line 85.
+    Found 26-bit register for signal <D1HZ_REG>.
+    Found 16-bit adder for signal <D1KHZ_NEXT$addsub0000> created at line 93.
+    Found 16-bit register for signal <D1KHZ_REG>.
+    Found 6-bit adder for signal <D1MHZ_NEXT$addsub0000> created at line 94.
+    Found 6-bit register for signal <D1MHZ_REG>.
+    Found 22-bit adder for signal <D20HZ_NEXT$addsub0000> created at line 89.
+    Found 22-bit register for signal <D20HZ_REG>.
+    Found 21-bit adder for signal <D25HZ_NEXT$addsub0000> created at line 90.
+    Found 21-bit register for signal <D25HZ_REG>.
+    Found 25-bit adder for signal <D2HZ_NEXT$addsub0000> created at line 86.
+    Found 25-bit register for signal <D2HZ_REG>.
+    Found 20-bit adder for signal <D50HZ_NEXT$addsub0000> created at line 91.
+    Found 20-bit register for signal <D50HZ_REG>.
+    Found 24-bit adder for signal <D5HZ_NEXT$addsub0000> created at line 87.
+    Found 24-bit register for signal <D5HZ_REG>.
+    Summary:
+	inferred 202 D-type flip-flop(s).
+	inferred  10 Adder/Subtractor(s).
+Unit <chia_10ENA> synthesized.
+
+
+Synthesizing Unit <LCD_GAN_DULIEU_HIENTHI>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/LCD_GAN_DULIEU_HENTHI.vhd".
+    Found 6-bit up counter for signal <I_REG>.
+    Found 6-bit comparator less for signal <LCD_HANG_4_0$cmp_lt0000> created at line 125.
+    Found 6-bit comparator less for signal <LCD_HANG_4_100$cmp_lt0000> created at line 137.
+    Found 6-bit comparator less for signal <LCD_HANG_4_104$cmp_lt0000> created at line 138.
+    Found 6-bit comparator less for signal <LCD_HANG_4_112$cmp_lt0000> created at line 139.
+    Found 6-bit comparator less for signal <LCD_HANG_4_120$cmp_lt0000> created at line 140.
+    Found 6-bit comparator less for signal <LCD_HANG_4_130$cmp_lt0000> created at line 141.
+    Found 6-bit comparator less for signal <LCD_HANG_4_140$cmp_lt0000> created at line 142.
+    Found 6-bit comparator less for signal <LCD_HANG_4_144$cmp_lt0000> created at line 143.
+    Found 6-bit comparator less for signal <LCD_HANG_4_152$cmp_lt0000> created at line 144.
+    Found 6-bit comparator less for signal <LCD_HANG_4_20$cmp_lt0000> created at line 127.
+    Found 6-bit comparator less for signal <LCD_HANG_4_24$cmp_lt0000> created at line 128.
+    Found 6-bit comparator less for signal <LCD_HANG_4_32$cmp_lt0000> created at line 129.
+    Found 6-bit comparator less for signal <LCD_HANG_4_40$cmp_lt0000> created at line 130.
+    Found 6-bit comparator less for signal <LCD_HANG_4_50$cmp_lt0000> created at line 131.
+    Found 6-bit comparator less for signal <LCD_HANG_4_60$cmp_lt0000> created at line 132.
+    Found 6-bit comparator less for signal <LCD_HANG_4_64$cmp_lt0000> created at line 133.
+    Found 6-bit comparator less for signal <LCD_HANG_4_72$cmp_lt0000> created at line 134.
+    Found 6-bit comparator less for signal <LCD_HANG_4_8$cmp_lt0000> created at line 126.
+    Found 6-bit comparator less for signal <LCD_HANG_4_90$cmp_lt0000> created at line 136.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  19 Comparator(s).
+Unit <LCD_GAN_DULIEU_HIENTHI> synthesized.
+
+
+Synthesizing Unit <LCD_KHOITAO_HIENTHI>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/LCD_KHOITAO_HIENTHI.vhd".
+    Found finite state machine <FSM_0> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 25                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 10                                             |
+    | Clock              | LCD_CK                    (falling_edge)       |
+    | Reset              | LCD_RST                   (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_init                                       |
+    | Power Up State     | lcd_init                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6x8-bit ROM for signal <LCD_DB$mux0000> created at line 81.
+    Found 1-bit register for signal <LCD_E>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0000> created at line 102.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0001> created at line 123.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0002> created at line 144.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0003> created at line 165.
+    Found 5-bit register for signal <PTR>.
+    Found 5-bit adder for signal <PTR$share0000> created at line 71.
+    Found 20-bit register for signal <SLX>.
+    Found 20-bit adder for signal <SLX$share0000> created at line 71.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <LCD_KHOITAO_HIENTHI> synthesized.
+
+
+Synthesizing Unit <DICH_1_HANG_HIENTHI>.
+    Related source file is "D:/THUC TAP VHDL XILINX/BAI_MR2_DICH_1_HANG_HIENTHI_CHU/DICH_1_HANG_HIENTHI.vhd".
+Unit <DICH_1_HANG_HIENTHI> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 6x8-bit ROM                                           : 1
+# Adders/Subtractors                                   : 12
+ 16-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 2
+ 21-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 15
+ 1-bit register                                        : 2
+ 16-bit register                                       : 1
+ 19-bit register                                       : 1
+ 20-bit register                                       : 2
+ 21-bit register                                       : 1
+ 22-bit register                                       : 1
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 25-bit register                                       : 1
+ 26-bit register                                       : 1
+ 5-bit register                                        : 1
+ 6-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 19
+ 6-bit comparator less                                 : 19
+# Multiplexers                                         : 4
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <LCD_KHOITAO_HIENTHI/LCD_STATE/FSM> on signal <LCD_STATE[1:4]> with gray encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ lcd_init    | 0000
+ lcd_addr_l1 | 0001
+ lcd_data_l1 | 0011
+ lcd_addr_l2 | 0010
+ lcd_data_l2 | 0110
+ lcd_addr_l3 | 0111
+ lcd_data_l3 | 0101
+ lcd_addr_l4 | 0100
+ lcd_data_l4 | 1100
+ lcd_stop    | 1101
+-------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 6x8-bit ROM                                           : 1
+# Adders/Subtractors                                   : 12
+ 16-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 2
+ 21-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 237
+ Flip-Flops                                            : 237
+# Comparators                                          : 19
+ 6-bit comparator less                                 : 19
+# Multiplexers                                         : 4
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DICH_1_HANG_HIENTHI> ...
+
+Optimizing unit <chia_10ENA> ...
+
+Optimizing unit <LCD_GAN_DULIEU_HIENTHI> ...
+
+Optimizing unit <LCD_KHOITAO_HIENTHI> ...
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_22> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_21> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_20> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_19> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_18> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_17> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_16> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_15> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_14> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_13> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_12> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_11> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_10> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_9> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_8> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_7> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_6> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_5> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_4> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_3> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_2> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_1> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D10HZ_REG_0> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_15> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_14> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_13> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_12> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_11> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_10> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_9> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_8> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_7> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_6> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_5> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_4> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_3> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_2> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_1> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1KHZ_REG_0> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_21> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_20> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_19> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_18> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_17> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_16> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_15> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_14> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_13> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_12> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_11> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_10> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_9> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_8> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_7> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_6> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_5> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_4> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_3> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_2> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_1> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D20HZ_REG_0> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_20> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_19> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_18> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_17> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_16> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_15> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_14> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_13> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_12> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_11> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_10> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_9> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_8> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_7> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_6> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_5> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_4> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_3> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_2> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_1> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D25HZ_REG_0> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1MHZ_REG_5> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1MHZ_REG_4> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1MHZ_REG_3> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1MHZ_REG_2> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1MHZ_REG_1> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1MHZ_REG_0> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_18> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_17> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_16> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_15> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_14> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_13> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_12> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_11> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_10> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_9> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_8> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_7> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_6> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_5> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_4> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_3> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_2> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_1> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D100HZ_REG_0> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_25> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_24> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_23> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_22> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_21> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_20> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_19> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_18> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_17> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_16> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_15> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_14> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_13> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_12> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_11> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_10> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_9> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_8> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_7> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_6> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_5> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_4> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_3> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_2> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_1> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D1HZ_REG_0> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_23> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_22> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_21> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_20> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_19> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_18> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_17> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_16> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_15> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_14> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_13> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_12> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_11> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_10> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_9> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_8> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_7> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_6> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_5> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_4> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_3> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_2> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_1> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D5HZ_REG_0> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_19> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_18> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_17> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_16> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_15> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_14> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_13> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_12> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_11> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_10> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_9> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_8> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_7> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_6> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_5> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_4> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_3> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_2> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_1> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+WARNING:Xst:2677 - Node <CHIA_XUNG/D50HZ_REG_0> of sequential type is unconnected in block <DICH_1_HANG_HIENTHI>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DICH_1_HANG_HIENTHI, actual ratio is 8.
+FlipFlop LCD_GAN_DULIEU_HIENTHI/I_REG_0 has been replicated 2 time(s)
+FlipFlop LCD_GAN_DULIEU_HIENTHI/I_REG_1 has been replicated 2 time(s)
+FlipFlop LCD_GAN_DULIEU_HIENTHI/I_REG_2 has been replicated 1 time(s)
+FlipFlop LCD_GAN_DULIEU_HIENTHI/I_REG_4 has been replicated 1 time(s)
+FlipFlop LCD_GAN_DULIEU_HIENTHI/I_REG_5 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 77
+ Flip-Flops                                            : 77
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DICH_1_HANG_HIENTHI.ngr
+Top Level Output File Name         : DICH_1_HANG_HIENTHI
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 880
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 43
+#      LUT2                        : 21
+#      LUT2_D                      : 9
+#      LUT2_L                      : 4
+#      LUT3                        : 111
+#      LUT3_D                      : 24
+#      LUT3_L                      : 7
+#      LUT4                        : 361
+#      LUT4_D                      : 21
+#      LUT4_L                      : 60
+#      MUXCY                       : 43
+#      MUXF5                       : 108
+#      MUXF6                       : 15
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 45
+# FlipFlops/Latches                : 77
+#      FDC_1                       : 29
+#      FDCE                        : 13
+#      FDE_1                       : 10
+#      FDR_1                       : 24
+#      FDS_1                       : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 1
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      343  out of   4656     7%  
+ Number of Slice Flip Flops:             77  out of   9312     0%  
+ Number of 4 input LUTs:                666  out of   9312     7%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    158     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 77    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+-------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                     | Load  |
+-----------------------------------+-------------------------------------+-------+
+RST(RST1_INV_0:O)                  | NONE(LCD_GAN_DULIEU_HIENTHI/I_REG_0)| 42    |
+-----------------------------------+-------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.822ns (Maximum Frequency: 113.354MHz)
+   Minimum input arrival time before clock: 2.382ns
+   Maximum output required time after clock: 4.182ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 8.822ns (frequency: 113.354MHz)
+  Total number of paths / destination ports: 8222 / 115
+-------------------------------------------------------------------------
+Delay:               8.822ns (Levels of Logic = 9)
+  Source:            LCD_GAN_DULIEU_HIENTHI/I_REG_1_1 (FF)
+  Destination:       LCD_KHOITAO_HIENTHI/LCD_DB_3 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: LCD_GAN_DULIEU_HIENTHI/I_REG_1_1 to LCD_KHOITAO_HIENTHI/LCD_DB_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            16   0.514   0.948  LCD_GAN_DULIEU_HIENTHI/I_REG_1_1 (LCD_GAN_DULIEU_HIENTHI/I_REG_1_1)
+     LUT2_D:I1->O          9   0.612   0.700  LCD_GAN_DULIEU_HIENTHI/LCD_HANG_4<0>21 (LCD_GAN_DULIEU_HIENTHI/LCD_HANG_4<0>_bdd4)
+     LUT4_L:I3->LO         1   0.612   0.103  LCD_GAN_DULIEU_HIENTHI/LCD_HANG_4<27>2 (LCD_GAN_DULIEU_HIENTHI/LCD_HANG_4<27>2)
+     LUT4:I3->O            1   0.612   0.426  LCD_GAN_DULIEU_HIENTHI/LCD_HANG_4<27>50 (LCD_HANG_4<27>)
+     LUT3:I1->O            1   0.612   0.000  LCD_KHOITAO_HIENTHI/Mmux__varindex0002_99 (LCD_KHOITAO_HIENTHI/Mmux__varindex0002_99)
+     MUXF5:I0->O           1   0.278   0.000  LCD_KHOITAO_HIENTHI/Mmux__varindex0002_7_f5_2 (LCD_KHOITAO_HIENTHI/Mmux__varindex0002_7_f53)
+     MUXF6:I1->O           1   0.451   0.387  LCD_KHOITAO_HIENTHI/Mmux__varindex0002_6_f6_2 (LCD_KHOITAO_HIENTHI/Mmux__varindex0002_6_f63)
+     LUT4:I2->O            1   0.612   0.360  LCD_KHOITAO_HIENTHI/LCD_DB_mux0001<4>8_SW0_SW0 (N290)
+     LUT4_L:I3->LO         1   0.612   0.103  LCD_KHOITAO_HIENTHI/LCD_DB_mux0001<4>8_SW0 (N168)
+     LUT4:I3->O            1   0.612   0.000  LCD_KHOITAO_HIENTHI/LCD_DB_mux0001<4>27 (LCD_KHOITAO_HIENTHI/LCD_DB_mux0001<4>)
+     FDE_1:D                   0.268          LCD_KHOITAO_HIENTHI/LCD_DB_3
+    ----------------------------------------
+    Total                      8.822ns (5.795ns logic, 3.027ns route)
+                                       (65.7% logic, 34.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              2.382ns (Levels of Logic = 1)
+  Source:            BTN_N0 (PAD)
+  Destination:       LCD_KHOITAO_HIENTHI/LCD_DB_7 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN_N0 to LCD_KHOITAO_HIENTHI/LCD_DB_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.106   0.793  BTN_N0_IBUF (BTN_N0_IBUF)
+     FDE_1:CE                  0.483          LCD_KHOITAO_HIENTHI/LCD_E
+    ----------------------------------------
+    Total                      2.382ns (1.589ns logic, 0.793ns route)
+                                       (66.7% logic, 33.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.182ns (Levels of Logic = 1)
+  Source:            LCD_KHOITAO_HIENTHI/LCD_DB_0 (FF)
+  Destination:       LCD_DB<0> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: LCD_KHOITAO_HIENTHI/LCD_DB_0 to LCD_DB<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            4   0.514   0.499  LCD_KHOITAO_HIENTHI/LCD_DB_0 (LCD_KHOITAO_HIENTHI/LCD_DB_0)
+     OBUF:I->O                 3.169          LCD_DB_0_OBUF (LCD_DB<0>)
+    ----------------------------------------
+    Total                      4.182ns (3.683ns logic, 0.499ns route)
+                                       (88.1% logic, 11.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 17.00 secs
+Total CPU time to Xst completion: 17.54 secs
+ 
+--> 
+
+Total memory usage is 4567352 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  186 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="BAI_605_LCD_NHIET_DO__DS18B20.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DEM_2SO.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="DEM_2SO.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="DEM_2SO.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LCD_DEM_0_255.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LCD_DEM_0_255.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LCD_DEM_0_255.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LCD_DEM_0_255.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LCD_DEM_0_255.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="LCD_DEM_0_255.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LCD_DEM_0_255.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="LCD_DEM_0_255.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="LCD_DEM_0_255.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="LCD_DEM_0_255.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_DEM_0_255.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="LCD_DEM_0_255.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LCD_DEM_0_255.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LCD_DEM_0_255.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="LCD_DEM_0_255.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="LCD_DEM_0_255.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="LCD_DEM_0_255.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="LCD_DEM_0_255.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="LCD_DEM_0_255.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LCD_DEM_0_255.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LCD_DEM_0_255_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="LCD_DEM_0_255_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LCD_DEM_0_255_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LCD_DEM_0_255_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LCD_DEM_0_255_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="LCD_DEM_0_255_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_DEM_0_255_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_DEM_0_255_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="LCD_DEM_0_255_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="LCD_DEM_0_255_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_DEM_0_255_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LCD_DEM_0_255_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="LCD_DEM_0_255_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="LCD_DEM_0_255_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_DEM_0_255_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_DEM_0_255_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_GAN_DULIEU_1SO_TO.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="LCD_GAN_DULIEU_1SO_TO.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="LCD_GAN_DULIEU_1SO_TO.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_KHOITAO_HIENTHI.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="LCD_KHOITAO_HIENTHI.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="LCD_KHOITAO_HIENTHI.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LCD_NHIET_DO_DS18B20.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LCD_NHIET_DO_DS18B20.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LCD_NHIET_DO_DS18B20.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LCD_NHIET_DO_DS18B20.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LCD_NHIET_DO_DS18B20.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="LCD_NHIET_DO_DS18B20.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LCD_NHIET_DO_DS18B20.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="LCD_NHIET_DO_DS18B20.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="LCD_NHIET_DO_DS18B20.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_NHIET_DO_DS18B20.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="LCD_NHIET_DO_DS18B20.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LCD_NHIET_DO_DS18B20.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="LCD_NHIET_DO_DS18B20.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="LCD_NHIET_DO_DS18B20.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LCD_NHIET_DO_DS18B20.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LCD_NHIET_DO_DS18B20_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="LCD_NHIET_DO_DS18B20_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LCD_NHIET_DO_DS18B20_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="LCD_NHIET_DO_DS18B20_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_NHIET_DO_DS18B20_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_NHIET_DO_DS18B20_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_NHIET_DO_DS18B20_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LCD_NHIET_DO_DS18B20_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="LCD_NHIET_DO_DS18B20_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="LCD_NHIET_DO_DS18B20_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_NHIET_DO_DS18B20_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_NHIET_DO_DS18B20_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="lcd_dem_0_255.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="lcd_dem_0_255.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="lcd_dem_0_255.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="lcd_nhiet_do_ds18b20.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="lcd_nhiet_do_ds18b20.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="lcd_nhiet_do_ds18b20.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1543569681" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1543569681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543569681" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1720487558149003982" xil_pn:start_ts="1543569681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543569681" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="609396753994359982" xil_pn:start_ts="1543569681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543569681" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1543569681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543569681" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1114834828405867596" xil_pn:start_ts="1543569681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543569681" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297145852409" xil_pn:start_ts="1543569681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543569681" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3279173232128887304" xil_pn:start_ts="1543569681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544175506" xil_pn:in_ck="-6422023410800126814" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4854124139434808639" xil_pn:start_ts="1544175485">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="LCD_DEM_0_255.ngr"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.lso"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.ngc"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.ngr"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.prj"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.stx"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.syr"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.xst"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_vhdl.prj"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1544175023" xil_pn:in_ck="4764064933875420618" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8459679090084903671" xil_pn:start_ts="1544175023">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544175512" xil_pn:in_ck="7627249108051757863" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3277449388438168785" xil_pn:start_ts="1544175506">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.bld"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.ngd"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1544175518" xil_pn:in_ck="-5743459349705040343" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="5880003210255087717" xil_pn:start_ts="1544175512">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.pcf"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_map.map"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_map.mrp"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_map.ncd"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_map.ngm"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_map.xrpt"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_summary.xml"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1544175551" xil_pn:in_ck="-222186789930835493" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1544175518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.ncd"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.pad"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.par"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.ptwx"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.unroutes"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.xpi"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_pad.csv"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_pad.txt"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1544175562" xil_pn:in_ck="-4885223277868107753" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1544175551">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="lcd_nhiet_do_ds18b20.bgn"/>
+      <outfile xil_pn:name="lcd_nhiet_do_ds18b20.bit"/>
+      <outfile xil_pn:name="lcd_nhiet_do_ds18b20.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1544175771" xil_pn:in_ck="8778743057258442763" xil_pn:name="TRAN_genImpactFile" xil_pn:prop_ck="7121392639749839438" xil_pn:start_ts="1544175769">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544175551" xil_pn:in_ck="6749370071784919329" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1544175547">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.twr"/>
+      <outfile xil_pn:name="LCD_NHIET_DO_DS18B20.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

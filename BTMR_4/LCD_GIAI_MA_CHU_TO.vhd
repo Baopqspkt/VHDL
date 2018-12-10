@@ -1,0 +1,41 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+
+entity LCD_GIAI_MA_CHU_TO is
+    Port ( LCD_MA_TO : out  STD_LOGIC_VECTOR (47 downto 0));
+end LCD_GIAI_MA_CHU_TO;
+
+architecture Behavioral of LCD_GIAI_MA_CHU_TO is
+TYPE LCD_MA7DOAN_TABLE IS ARRAY(INTEGER RANGE 0 TO 59) OF STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+CONSTANT LCD_MA7DOAN:LCD_MA7DOAN_TABLE:= (
+	X"00",X"01",X"02",X"05",X"03",X"04", --0
+	X"01",X"02",X"20",X"03",X"07",X"03", --1
+	X"06",X"06",X"02",X"05",X"03",X"03", --2
+	X"06",X"06",X"02",X"03",X"03",X"04", --3
+	X"07",X"03",X"07",X"20",X"20",X"07", --4
+	
+	X"07",X"06",X"06",X"03",X"03",X"04", --5
+	X"00",X"06",X"06",X"05",X"03",X"04", --6
+	X"01",X"01",X"07",X"20",X"20",X"07", --7
+	X"00",X"06",X"02",X"05",X"03",X"04", --8
+	X"00",X"06",X"02",X"03",X"03",X"04"  --9
+);
+
+
+begin
+
+	
+	LCD_MA_TO(47 DOWNTO 40) <= LCD_MA7DOAN(0);
+	LCD_MA_TO(39 DOWNTO 32) <= LCD_MA7DOAN(1);
+	LCD_MA_TO(31 DOWNTO 24) <= LCD_MA7DOAN(1);
+	LCD_MA_TO(23 DOWNTO 16) <= LCD_MA7DOAN(5);
+	LCD_MA_TO(15 DOWNTO 8) <= LCD_MA7DOAN(4);
+	LCD_MA_TO(7 DOWNTO 0) <= LCD_MA7DOAN(4);
+
+end Behavioral;
+
+

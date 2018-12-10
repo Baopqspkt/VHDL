@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/THUC TAP VHDL XILINX/BTMR_6/LCD_DEM_0_255.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA1HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/THUC TAP VHDL XILINX/BTMR_6/LCD_DEM_0_255.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA2HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/THUC TAP VHDL XILINX/BTMR_6/LCD_DEM_0_255.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA20HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/THUC TAP VHDL XILINX/BTMR_6/LCD_DEM_0_255.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA25HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/THUC TAP VHDL XILINX/BTMR_6/LCD_DEM_0_255.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA50HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/THUC TAP VHDL XILINX/BTMR_6/LCD_DEM_0_255.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA100HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/THUC TAP VHDL XILINX/BTMR_6/LCD_DEM_0_255.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA1KHZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/THUC TAP VHDL XILINX/BTMR_6/LCD_DEM_0_255.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA1MHZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">DS_OUT</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DS18B20_TEMPERATURE</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">LCD_MA_DONVI&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1306" delta="old" >Output &lt;<arg fmt="%s" index="1">LED</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">LED2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">ENADB</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ENA10HZ</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D10HZ_REG_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1KHZ_REG_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D20HZ_REG_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D25HZ_REG_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D100HZ_REG_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D1HZ_REG_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D50HZ_REG_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CHIA_10ENA/D2HZ_REG_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LCD_NHIET_DO_DS18B20</arg>&gt;.
+</msg>
+
+</messages>
+

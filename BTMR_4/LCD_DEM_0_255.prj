@@ -1,0 +1,6 @@
+vhdl work "LCD_KHOITAO_HIENTHI.vhd"
+vhdl work "LCD_GAN_DULIEU_HENTHI.vhd"
+vhdl work "HEXTOBCD_8BIT.vhd"
+vhdl work "DEM_8BIT.vhd"
+vhdl work "CHIA_10ENA.vhd"
+vhdl work "LCD_DEM_0_255.vhd"
